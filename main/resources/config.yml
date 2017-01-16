@@ -1,0 +1,3 @@
+ServerGive:
+   enabled: true
+   Broadcast message: true

@@ -1,0 +1,37 @@
+name: ServerGive
+main: me.MC_Elmo.ServerGive.ServerGive
+version: 1.0
+author: MC_Elmo
+description: Give items/xp to all players on Server.
+
+commands:
+  servergive:
+     description: Base Command for ServerGive
+     aliases: [sg]
+     usage: /<command>
+
+permissions:
+   servergive.items.give:
+      description: Give items to all players on Server.
+      default: op
+   servergive.items.antigive:
+         description: Exempt from having items given by command.
+         default: op
+   servergive.items.take:
+      description: Take items from all players on the Server.
+      default: op
+   servergive.items.antitake:
+      description: Exempt from having items taken by command.
+      default: op
+   servergive.exp.give:
+      description: Give exp to players on the server.
+      deafult: op
+   servergive.exp.antigive:
+         description: Exempt from having exp given by command.
+         deafult: op
+   servergive.exp.take:
+        description: Take exp from players on the server.
+        deafult: op
+   servergive.exp.antitake:
+         description: Exempt from having Exp taken by command.
+         deafult: op
